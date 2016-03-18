@@ -1,15 +1,80 @@
-* {
-    margin:  0;
-    padding: 0;
-}       
-#container {
-    width: 100%;
-    margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10px;
-    position:relative;
-        }
-        #centerDoc {
+body {
+        background: url("/img/ssmcover.gif") no-repeat top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+.container {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;   
+}
+.header {
+    margin-top: 5%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.offer-row-1 .offer-row-2 {
+    width: 60%;
+    text-align: center;
+    display: inline;
+    position: relative;
+}
+.create {
+    position: absolute;
+    top: 10em;
+    left: 25%;
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.design {
+    position: absolute;
+    top: 10em;
+    right: 25%;
+    display: inline-block;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.build {
+    position: absolute;
+    top: 25em;
+    left: 25%;
+    display: inline-block;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.media {
+    position: absolute;
+    top: 25em;
+    right: 25%;
+    display: inline-block;
+    margin-left: 30%;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.coming {
+    position: relative;
+    margin-top: 50%;
+    text-align: center;
+}
+h2{
+    width:60%;
+    margin: 0 auto;
 
 }
+
